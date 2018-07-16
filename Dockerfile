@@ -1,6 +1,6 @@
 FROM registry.saas.hand-china.com/tools/debian:jessie 
 
-COPY mysite/ /myblog/
+COPY zc195.github.io/ /myblog/
 
 ADD hugo_0.44_Linux-64bit.deb /tmp/hugo.deb
 
